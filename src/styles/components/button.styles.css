@@ -1,0 +1,9 @@
+.h-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(var(--color-test), var(--color-test2));
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+@import './variables.css';
+
+/* Components styles */
+@import './components/button.styles.css';
+@import './components/input.styles.css';

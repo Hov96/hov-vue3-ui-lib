@@ -1,0 +1,37 @@
+{
+    "name": "hov-vue3-ui-lib",
+    "private": false,
+    "version": "1.0.0",
+    "main": "dist/index.umd.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc -b && vite build",
+        "preview": "vite preview"
+    },
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.es.js",
+            "require": "./dist/index.umd.js"
+        },
+        "./package.json": "./package.json",
+        "./dist/index.css": "./dist/index.css"
+    },
+    "peerDependencies": {
+        "vue": "^3.5.17"
+    },
+    "devDependencies": {
+        "@types/node": "^24.1.0",
+        "@vitejs/plugin-vue": "^6.0.0",
+        "@vue/tsconfig": "^0.7.0",
+        "typescript": "~5.8.3",
+        "vite": "^7.0.4",
+        "vite-plugin-dts": "^4.5.4",
+        "vue-tsc": "^2.2.12"
+    }
+}
