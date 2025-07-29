@@ -20,6 +20,19 @@ export interface InputProps {
      * @default 'text'
      */
     type?: InputType
+
+    label?: string
+    id?: string
+    errorMessage?: string
+    min?: number
+    max?: number
+    minLength?: number
+    maxLength?: number
+    noShadow?: boolean
+    hideAppearance?: boolean
+    required?: boolean
+    asteriskColor?: string
+    boldLabel?: boolean
 }
 
 type InputType = 'text' | 'number' | 'password' | 'email'

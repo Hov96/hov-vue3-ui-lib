@@ -50,6 +50,13 @@
     --h-font-size-xl: 18px;
     --h-font-size-2xl: 20px;
 
+    /* Border Radius */
+    --h-border-radius-xxs: 2px;
+    --h-border-radius-xs: 4px;
+    --h-border-radius-sm: 6px;
+    --h-border-radius-md: 8px;
+    --h-border-radius-lg: 12px;
+
     /* Font Weights */
     --h-font-weight-normal: 400;
     --h-font-weight-medium: 500;
@@ -60,8 +67,10 @@
     --h-spacing-xs: 4px;
     --h-spacing-xsm: 6px;
     --h-spacing-sm: 8px;
+    --h-spacing-xmd: 10px;
     --h-spacing-md: 12px;
     --h-spacing-lg: 16px;
+    --h-spacing-32: 32px;
 
     /* Transitions */
     --h-transition-fast: 0.1s ease-in-out;

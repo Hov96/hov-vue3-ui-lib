@@ -1,6 +1,105 @@
 .h-input {
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: var(--h-spacing-xs);
     width: 100%;
+}
+
+.h-input--disabled {
+    pointer-events: none;
+}
+
+/* Label */
+.h-input__title {
+    font-size: var(--h-font-size-base);
+    font-weight: var(--h-font-weight-normal);
+    color: inherit;
+    line-height: var(--h-font-size-base);
+}
+
+.h-input__title-bold {
+    font-weight: var(--h-font-weight-bold);
+}
+
+/* Content wrapper */
+.h-input__content {
+    display: flex;
+    align-items: center;
+    gap: var(--h-spacing-sm);
+}
+
+/* Input */
+.h-input__input {
+    width: 100%;
+    border-radius: var(--h-border-radius-sm);
+    padding: var(--h-spacing-xsm) var(--h-spacing-xmd);
+    border: 1px solid var(--h-color-border-default);
+    outline: none;
+    transition: all var(--h-transition-normal);
+    font-size: inherit;
+    box-shadow: var(--h-shadow-sm);
+}
+
+.h-input__input[type='password'],
+.h-input__input--with-end-icon {
+    padding-right: var(--h-spacing-32);
+}
+
+.h-input__input--with-start-icon {
+    padding-left: var(--h-spacing-32);
+}
+
+.h-input__input:focus {
+    border-color: var(--h-color-primary);
+}
+
+.h-input__input--disabled {
+    border-color: var(--h-color-disabled);
+    background-color: var(--h-color-disabled);
+}
+
+.h-input__input--error {
+    border-color: var(--h-color-danger) !important;
+}
+
+.h-input__input--no-shadow {
+    box-shadow: none;
+}
+
+.h-input__input--hide-appearance::-webkit-outer-spin-button,
+.h-input__input--hide-appearance::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Error message */
+.h-input__error-message {
+    font-size: var(--h-font-size-sm);
+    margin: 0;
+    color: var(--h-color-danger);
+}
+
+/* Start and End icons */
+.h-input__start-icon {
+    position: absolute;
+    top: 50%;
+    left: var(--h-spacing-sm);
+    transform: translateY(-50%);
+    max-width: var(--h-spacing-32);
+    max-height: var(--h-spacing-32);
+    overflow: hidden;
+}
+
+.h-input__end-icon {
+    position: absolute;
+    top: 50%;
+    right: var(--h-spacing-sm);
+    transform: translateY(-50%);
+    cursor: pointer;
+    max-width: var(--h-spacing-32);
+    max-height: var(--h-spacing-32);
+    overflow: hidden;
 }
