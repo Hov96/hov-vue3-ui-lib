@@ -56,8 +56,8 @@
 }
 
 .h-input__input--disabled {
-    border-color: var(--h-color-disabled);
-    background-color: var(--h-color-disabled);
+    border-color: var(--h-color-grey-300);
+    background-color: var(--h-color-grey-200);
 }
 
 .h-input__input--error {
