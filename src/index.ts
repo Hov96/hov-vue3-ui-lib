@@ -6,15 +6,15 @@ import './styles/main.css'
 // Components
 import HButton from './components/Button.vue'
 import HInput from './components/Input.vue'
-import Loading from './components/Loading.vue'
+import HLoading from './components/Loading.vue'
 
-export { HButton, HInput, Loading }
+export { HButton, HInput, HLoading }
 
 // For global registration (Vue.use())
 export default {
     install(app: App) {
         app.component('HButton', HButton)
         app.component('HInput', HInput)
-        app.component('Loading', Loading)
+        app.component('HLoading', HLoading)
     },
 }
