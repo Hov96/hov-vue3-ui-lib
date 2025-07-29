@@ -3,3 +3,4 @@
 /* Components styles */
 @import './components/button.styles.css';
 @import './components/input.styles.css';
+@import './components/loading.styles.css';
