@@ -63,7 +63,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { InputProps } from '@/types/input.type'
+import { InputProps } from '@/types/input.types'
 
 // Icons
 import EyeIcon from '../assets/icons/eye.svg'
