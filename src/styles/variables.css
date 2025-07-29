@@ -9,6 +9,8 @@
     --h-color-primary-500: #3b82f6; /* Base */
     --h-color-primary-600: #2563eb;
     --h-color-primary-700: #1d4ed8;
+    --h-color-primary-800: #1e40af;
+    --h-color-primary-900: #1e3a8a;
 
     /* Secondary */
     --h-color-secondary: #14b8a6;
@@ -20,6 +22,8 @@
     --h-color-secondary-500: #14b8a6; /* Base */
     --h-color-secondary-600: #0d9488;
     --h-color-secondary-700: #0f766e;
+    --h-color-secondary-800: #115e59;
+    --h-color-secondary-900: #134e4a;
 
     /* Danger */
     --h-color-danger: #ef4444;
@@ -31,10 +35,24 @@
     --h-color-danger-500: #ef4444; /* Base */
     --h-color-danger-600: #dc2626;
     --h-color-danger-700: #b91c1c;
+    --h-color-danger-800: #991b1b;
+    --h-color-danger-900: #7f1d1d;
+
+    /* Grey */
+    --h-color-grey: #6b7280;
+    --h-color-grey-50: #f9fafb;
+    --h-color-grey-100: #f3f4f6;
+    --h-color-grey-200: #e5e7eb;
+    --h-color-grey-300: #d1d5db;
+    --h-color-grey-400: #9ca3af;
+    --h-color-grey-500: #6b7280; /* Base */
+    --h-color-grey-600: #4b5563;
+    --h-color-grey-700: #374151;
+    --h-color-grey-800: #1f2937;
+    --h-color-grey-900: #111827;
 
     /* Others */
     --h-color-border-default: #c4c4c4;
-    --h-color-disabled: #eeeeee;
     --h-color-bg-default: #f9fafb;
 
     /* Box Shadows */
@@ -70,7 +88,11 @@
     --h-spacing-xmd: 10px;
     --h-spacing-md: 12px;
     --h-spacing-lg: 16px;
-    --h-spacing-32: 32px;
+    --h-spacing-xl: 20px;
+    --h-spacing-2xl: 24px;
+    --h-spacing-3xl: 28px;
+    --h-spacing-4xl: 32px;
+    --h-spacing-5xl: 36px;
 
     /* Transitions */
     --h-transition-fast: 0.1s ease-in-out;

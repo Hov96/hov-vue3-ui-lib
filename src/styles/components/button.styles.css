@@ -1,9 +1,81 @@
 .h-button {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: var(--h-spacing-xsm) var(--h-spacing-md);
+    font-size: inherit;
     border: none;
-    border-radius: 4px;
-    background: linear-gradient(var(--color-test), var(--color-test2));
-    color: white;
+    outline: none;
+    border-radius: var(--h-border-radius-sm);
+    color: var(--h-color-grey-50);
     cursor: pointer;
+    width: max-content;
+    box-shadow: var(--h-shadow-sm);
+}
+
+.h-button:disabled {
+    background: var(--h-color-grey-400) !important;
+    cursor: not-allowed;
+}
+
+.h-button:focus {
+    box-shadow: var(--h-shadow-md);
+}
+
+.h-button--fluid {
+    width: 100%;
+}
+
+/* Primary Button */
+.h-button--primary {
+    background: linear-gradient(var(--h-color-primary-400), var(--h-color-primary-600));
+}
+
+.h-button--primary:hover {
+    background: linear-gradient(var(--h-color-primary-500), var(--h-color-primary-700));
+}
+
+.h-button--primary:active {
+    background: linear-gradient(var(--h-color-primary-600), var(--h-color-primary-800));
+}
+
+/* Secondary Button */
+.h-button--secondary {
+    background: linear-gradient(var(--h-color-secondary-400), var(--h-color-secondary-600));
+}
+
+.h-button--secondary:hover {
+    background: linear-gradient(var(--h-color-secondary-500), var(--h-color-secondary-700));
+}
+
+.h-button--secondary:active {
+    background: linear-gradient(var(--h-color-secondary-600), var(--h-color-secondary-800));
+}
+
+/* Danger Button */
+.h-button--danger {
+    background: linear-gradient(var(--h-color-danger-400), var(--h-color-danger-600));
+}
+
+.h-button--danger:hover {
+    background: linear-gradient(var(--h-color-danger-500), var(--h-color-danger-700));
+}
+
+.h-button--danger:active {
+    background: linear-gradient(var(--h-color-danger-600), var(--h-color-danger-800));
+}
+
+/* Loading */
+.h-button--loading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-button--loading .h-button--loader {
+    position: absolute;
+    z-index: 10;
+}
+
+.h-button__content--loading {
+    opacity: 0.8;
+    filter: blur(1px);
 }

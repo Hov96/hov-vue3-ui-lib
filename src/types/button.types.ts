@@ -4,4 +4,9 @@ export interface ButtonProps {
      * @default false
      */
     disabled?: boolean
+    fluid?: boolean
+    variant?: ButtonVariant
+    loading?: boolean
 }
+
+type ButtonVariant = 'primary' | 'secondary' | 'danger'
