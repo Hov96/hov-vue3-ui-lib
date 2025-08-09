@@ -7,8 +7,9 @@ import './styles/main.css'
 import HButton from './components/Button.vue'
 import HInput from './components/Input.vue'
 import HLoading from './components/Loading.vue'
+import HModal from './components/Modal.vue'
 
-export { HButton, HInput, HLoading }
+export { HButton, HInput, HLoading, HModal }
 
 // For global registration (Vue.use())
 export default {
@@ -16,5 +17,6 @@ export default {
         app.component('HButton', HButton)
         app.component('HInput', HInput)
         app.component('HLoading', HLoading)
+        app.component('HModal', HModal)
     },
 }
