@@ -67,6 +67,8 @@
     --h-font-size-lg: 16px;
     --h-font-size-xl: 18px;
     --h-font-size-2xl: 20px;
+    --h-font-size-3xl: 24px;
+    --h-font-size-4xl: 28px;
 
     /* Border Radius */
     --h-border-radius-xxs: 2px;
@@ -98,4 +100,13 @@
     --h-transition-fast: 0.1s ease-in-out;
     --h-transition-normal: 0.2s ease-in-out;
     --h-transition-slow: 0.3s ease-in-out;
+
+    /* Breakpoints */
+    --h-breakpoint-xxs: 420px;
+    --h-breakpoint-xs: 480px;
+    --h-breakpoint-sm: 640px;
+    --h-breakpoint-md: 768px;
+    --h-breakpoint-lg: 1024px;
+    --h-breakpoint-xl: 1280px;
+    --h-breakpoint-2xl: 1536px;
 }
