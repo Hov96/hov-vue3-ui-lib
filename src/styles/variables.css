@@ -76,6 +76,9 @@
     --h-border-radius-sm: 6px;
     --h-border-radius-md: 8px;
     --h-border-radius-lg: 12px;
+    --h-border-radius-xl: 16px;
+    --h-border-radius-2xl: 20px;
+    --h-border-radius-full: 100%;
 
     /* Font Weights */
     --h-font-weight-normal: 400;
