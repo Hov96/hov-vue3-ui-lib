@@ -9,8 +9,9 @@ import HInput from './components/Input.vue'
 import HLoading from './components/Loading.vue'
 import HModal from './components/Modal.vue'
 import HPill from './components/Pill.vue'
+import HCard from './components/Card.vue'
 
-export { HButton, HInput, HLoading, HModal, HPill }
+export { HButton, HInput, HLoading, HModal, HPill, HCard }
 
 // For global registration (Vue.use())
 export default {
@@ -20,5 +21,6 @@ export default {
         app.component('HLoading', HLoading)
         app.component('HModal', HModal)
         app.component('HPill', HPill)
+        app.component('HCard', HCard)
     },
 }
