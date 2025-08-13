@@ -107,7 +107,7 @@
     /* Breakpoints */
     --h-breakpoint-xxs: 420px;
     --h-breakpoint-xs: 480px;
-    --h-breakpoint-sm: 640px;
+    --h-breakpoint-sm: 576px;
     --h-breakpoint-md: 768px;
     --h-breakpoint-lg: 1024px;
     --h-breakpoint-xl: 1280px;
