@@ -1,5 +1,8 @@
 # hov-vue3-ui-lib
 
+> 📦 This repository serves as the **demonstration and source code** for the npm package:  
+> 👉 [hov-vue3-ui-lib on npm](https://www.npmjs.com/package/hov-vue3-ui-lib)
+
 A modern, lightweight, and customizable **UI component library** for **Vue 3**.  
 Designed to provide developers with a simple and elegant set of ready-to-use components, focusing on **speed**, **flexibility**, and a **great developer experience**.
 
